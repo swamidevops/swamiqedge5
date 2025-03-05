@@ -10,7 +10,21 @@ public class ReadFile {
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();
         System.out.println(data);
-      }
+#chandu1 changes the settings on 05-03-2025
+import java.util.Arrays;
+
+public class Main {
+  public static void main(String[] args) {
+    String[] cars = {"Volvo", "BMW", "Tesla", "Ford", "Fiat", "Mazda", "Audi"};
+    Arrays.sort(cars);
+    for (String i : cars) {
+      System.out.println(i);
+    }
+  }
+}
+end of chandu1 settings 
+
+}
       myReader.close();
     } catch (FileNotFoundException e) {
       System.out.println("An error occurred.");
